@@ -30,7 +30,7 @@ import java.io.InputStreamReader;
 
                 
                 //年齢の入力が正しいかどうか
-                if (age < 0 || age > 120) {
+                if (age < 0 || age > 119) {
                     System.out.println("入力された年齢が無効です。0歳から120歳の間で入力してください。");
                     continue;
                 }
@@ -46,6 +46,8 @@ import java.io.InputStreamReader;
                 System.out.println("あなたは " + era + " " + yearInEra + " 年に生まれました。");
             }
         
+
+            
             catch(IOException e) {
                 System.out.println(e);
             }
@@ -62,6 +64,10 @@ import java.io.InputStreamReader;
             else if (year >= 1912) return "大正";
             else return "明治";
         }
+
+
+
+
     
         private static int getEraStartYear(String era) {
             switch (era) {
@@ -69,7 +75,7 @@ import java.io.InputStreamReader;
                 case "平成": return 1989;
                 case "昭和": return 1926;
                 case "大正": return 1912;
-                default: return 1868; // 明治
+                default: return 1868; 
             }
         }
     
