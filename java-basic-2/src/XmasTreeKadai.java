@@ -23,11 +23,9 @@ public class XmasTreeKadai {
 
 
             for(int i=0;i<=n-j;i++){
-                if((i+j)%2==1){
-                System.out.print("@");
-                }else{
-                    System.out.print(" ");
-                    }
+                if((i+j)%2==0){
+                System.out.print(" @");
+                }
             }
 
 
