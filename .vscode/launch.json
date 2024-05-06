@@ -6,6 +6,95 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyExceptionHoliday",
+            "request": "launch",
+            "mainClass": "MyExceptionHoliday",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MayExceptionTest",
+            "request": "launch",
+            "mainClass": "MayExceptionTest",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "HeikinCKadai",
+            "request": "launch",
+            "mainClass": "HeikinCKadai",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "XmasTreeKadai",
+            "request": "launch",
+            "mainClass": "XmasTreeKadai",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "RandSwitch",
+            "request": "launch",
+            "mainClass": "RandSwitch",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Calc3MethodTestInatance",
+            "request": "launch",
+            "mainClass": "Calc3MethodTestInatance",
+            "projectName": "netpro2024_fa8f1410",
+            "args": [
+                "20",
+                "10"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc3MethodTest",
+            "request": "launch",
+            "mainClass": "Calc3MethodTest",
+            "projectName": "netpro2024_fa8f1410",
+            "args": [
+                "20",
+                "10"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Calc2ScannerFile",
+            "request": "launch",
+            "mainClass": "Calc2ScannerFile",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Calc2Scanner",
+            "request": "launch",
+            "mainClass": "Calc2Scanner",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Calc2",
+            "request": "launch",
+            "mainClass": "Calc2",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Calc1",
+            "request": "launch",
+            "mainClass": "Calc1",
+            "projectName": "netpro2024_fa8f1410",
+            "args": [
+                "20",
+                "10"
+            ]
+        },
+        {
+            "type": "java",
             "name": "NetproLabMember",
             "request": "launch",
             "mainClass": "NetproLabMember",
