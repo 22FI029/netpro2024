@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.Month;
 
 public class MyExceptionHoliday {
 
@@ -20,6 +21,8 @@ public class MyExceptionHoliday {
 
 		// readLine() は、入出力エラーの可能性がある。エラー処理がないとコンパイルできない。
 		//  Java では、 try{ XXXXXXXX }  catch(エラーの型 変数) { XXXXXXXXXXXXXXXXXX} と書く
+
+		while(true){
 		try {
 			System.out.println("何日ですか?");
 			String line = reader.readLine();
@@ -36,6 +39,7 @@ public class MyExceptionHoliday {
 		} catch (NoHolidayException e) {
 			e.printStackTrace();
 		}
+	}
 
 	}
 
@@ -44,9 +48,17 @@ public class MyExceptionHoliday {
         DayOfWeek dayOfWeek = date.getDayOfWeek();
         if (dayOfWeek == DayOfWeek.SATURDAY || dayOfWeek == DayOfWeek.SUNDAY) {
             System.out.println(theday + "日は休日です。");
-        } else {
+		}
+			else if (isHoliday(date)) {
+				System.out.println(theday + "日は休日です。");
+			}
+        else {
 			throw new NoHolidayException(theday + "日は休日ではありません。");
 		}
 	}
+	boolean isHoliday(LocalDate date) {
+
+        return (date.getMonth() == Month.MAY && (date.getDayOfMonth() == 3 || date.getDayOfMonth() == 6));
+    }
 
 }
