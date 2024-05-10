@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XmasTCPClinet",
+            "request": "launch",
+            "mainClass": "XmasTCPClinet",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "XmasTCPServer",
+            "request": "launch",
+            "mainClass": "XmasTCPServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
             "name": "MyExceptionHoliday",
             "request": "launch",
             "mainClass": "MyExceptionHoliday",
