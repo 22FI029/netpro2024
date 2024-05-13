@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ChocolateClient",
+            "request": "launch",
+            "mainClass": "ChocolateClient",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "ChocolateServer",
+            "request": "launch",
+            "mainClass": "ChocolateServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
             "name": "XmasTCPClinet",
             "request": "launch",
             "mainClass": "XmasTCPClinet",
