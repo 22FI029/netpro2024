@@ -57,7 +57,7 @@ public class MyExceptionHoliday {
 		}
 	}
 	boolean isHoliday(LocalDate date) {
-
+        // 令和の日（5月1日）とこどもの日（5月5日）を祝日とします
         return (date.getMonth() == Month.MAY && (date.getDayOfMonth() == 3 || date.getDayOfMonth() == 6));
     }
 
