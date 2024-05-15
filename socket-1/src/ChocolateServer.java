@@ -56,7 +56,7 @@ public class ChocolateServer {
                 }
                 System.out.println("メッセージは" + msgPresent);
                 String presentFromClient = present.getType();
-                System.out.println("プレゼントの内容は" + presentFromClient);
+                System.out.println("プレゼントの内容は" + presentFromClient+"チョコレート");
 
                 XmasPresent response = new XmasPresent();
                 response.setMessage("バレンタインの贈り物を受け取りました！\n" + presentFromClient + "チョコレートありがとう。\nバレンタインのお返しです：" + serverProcess(presentFromClient));
