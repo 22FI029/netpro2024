@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TaskClient",
+            "request": "launch",
+            "mainClass": "TaskClient",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "TaskServer",
+            "request": "launch",
+            "mainClass": "TaskServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "HybridCarImpl",
+            "request": "launch",
+            "mainClass": "HybridCarImpl",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "DinnerFullCource",
+            "request": "launch",
+            "mainClass": "DinnerFullCource",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Dinner",
+            "request": "launch",
+            "mainClass": "Dinner",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "ReferencesArgument",
+            "request": "launch",
+            "mainClass": "ReferencesArgument",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
             "name": "ChocolateClient",
             "request": "launch",
             "mainClass": "ChocolateClient",
