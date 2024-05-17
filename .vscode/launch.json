@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TaskServerWhile",
+            "request": "launch",
+            "mainClass": "TaskServerWhile",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "TaskClientWhile",
+            "request": "launch",
+            "mainClass": "TaskClientWhile",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "TaskClientOnce",
+            "request": "launch",
+            "mainClass": "TaskClientOnce",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "TaskServerOnce",
+            "request": "launch",
+            "mainClass": "TaskServerOnce",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
             "name": "TaskClient",
             "request": "launch",
             "mainClass": "TaskClient",

@@ -3,7 +3,7 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class TaskClient {
+public class TaskClientWhile {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("サーバーに接続して計算を開始します...");
@@ -21,12 +21,12 @@ public class TaskClient {
                 ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
                 ObjectInputStream ois = new ObjectInputStream(socket.getInputStream())) {
 
-                PrimeTask task = new PrimeTask();
+                    TaskObject task = new TaskObject();
                 task.setExecNumber(number);
                 oos.writeObject(task);
                 oos.flush();
 
-                PrimeTask resultTask = (PrimeTask) ois.readObject();
+                TaskObject resultTask = (TaskObject) ois.readObject();
                 System.out.println("サーバからの最大素数は: " + resultTask.getResult());
             } catch (Exception e) {
                 System.err.println("接続エラーまたはデータ転送エラー: " + e.getMessage());

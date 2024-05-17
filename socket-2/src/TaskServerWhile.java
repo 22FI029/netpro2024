@@ -3,7 +3,7 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class TaskServer {
+public class TaskServerWhile {
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(5000)) {
             System.out.println("サーバーがポート5000で待機しています...");
@@ -14,7 +14,7 @@ public class TaskServer {
                     ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream())) {
 
                     System.out.println("クライアント接続: " + clientSocket.getInetAddress());
-                    PrimeTask task = (PrimeTask) ois.readObject();
+                    TaskObject task = (TaskObject) ois.readObject();
 
                     if (task.getExecNumber() <= 1) {
                         System.out.println("1以下の入力がされたためサーバを終了します。");

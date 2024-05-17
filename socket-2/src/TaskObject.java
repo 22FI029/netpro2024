@@ -1,4 +1,4 @@
-public class PrimeTask implements ITask {
+public class TaskObject implements ITask {
     private static final long serialVersionUID = 1L;
     private int number;
     private int result;
@@ -44,3 +44,6 @@ public class PrimeTask implements ITask {
         return true;
     }
 }
+
+
+    
