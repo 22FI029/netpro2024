@@ -6,6 +6,139 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExThreadsMain",
+            "request": "launch",
+            "mainClass": "kadai.ExThreadsMain",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "CountAZTenRunnable",
+            "request": "launch",
+            "mainClass": "kadai.CountAZTenRunnable",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "CountTenRunnable",
+            "request": "launch",
+            "mainClass": "kadai.CountTenRunnable",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MulticastClient",
+            "request": "launch",
+            "mainClass": "kadai.MulticastClient",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MulticastServer",
+            "request": "launch",
+            "mainClass": "kadai.MulticastServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "UDPClient",
+            "request": "launch",
+            "mainClass": "kadai.UDPClient",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "kadai.UDPServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "CountTenRunnable",
+            "request": "launch",
+            "mainClass": "threading.CountTenRunnable",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "ThreadArrayExample",
+            "request": "launch",
+            "mainClass": "threading.ThreadArrayExample",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MulticastClient",
+            "request": "launch",
+            "mainClass": "networking.MulticastClient",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MulticastServer",
+            "request": "launch",
+            "mainClass": "networking.MulticastServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "UDPClientWhile",
+            "request": "launch",
+            "mainClass": "networking.UDPClientWhile",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "UDPServerWhile",
+            "request": "launch",
+            "mainClass": "networking.UDPServerWhile",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "UDPClient",
+            "request": "launch",
+            "mainClass": "networking.UDPClient",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "UDPServer",
+            "request": "launch",
+            "mainClass": "networking.UDPServer",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MainCallBackLambda",
+            "request": "launch",
+            "mainClass": "Callback.MainCallBackLambda",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MainCallBack",
+            "request": "launch",
+            "mainClass": "Callback.MainCallBack",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "RandomStringGenerator",
+            "request": "launch",
+            "mainClass": "basic.RandomStringGenerator",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Stringprocessing",
+            "request": "launch",
+            "mainClass": "basic.Stringprocessing",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
             "name": "TaskServerWhile",
             "request": "launch",
             "mainClass": "TaskServerWhile",

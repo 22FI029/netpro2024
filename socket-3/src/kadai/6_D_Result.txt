@@ -1,0 +1,46 @@
+le kadai.ExThreadsMain "
+z_chan thread
+Fibonacci: 0 thread: Fibonacci_thread
+Fibonacci: 1 thread: Fibonacci_thread
+Fibonacci: 1 thread: Fibonacci_thread
+y_chan thread
+x_chan thread
+Fibonacci: 2 thread: Fibonacci_thread
+w_chan thread
+v_chan thread
+Fibonacci: 3 thread: Fibonacci_thread
+u_chan thread
+Fibonacci: 5 thread: Fibonacci_thread
+t_chan thread
+s_chan thread
+Fibonacci: 8 thread: Fibonacci_thread
+Fibonacci: 13 thread: Fibonacci_thread
+Fibonacci: 21 thread: Fibonacci_thread
+q_chan thread
+Fibonacci: 34 thread: Fibonacci_thread
+p_chan thread
+o_chan thread
+n_chan thread
+m_chan thread
+l_chan thread
+k_chan thread
+j_chan thread
+i_chan thread
+h_chan thread
+g_chan thread
+f_chan thread
+e_chan thread
+d_chan thread
+c_chan thread
+b_chan thread
+a_chan thread
+
+c:\Users\urara\OneDrive\電大３年前期\netpro2024>
+
+
+
+
+
+
+
+
