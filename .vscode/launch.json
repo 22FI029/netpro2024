@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GUIAniMultiTCPClient2",
+            "request": "launch",
+            "mainClass": "guichat.GUIAniMultiTCPClient2",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "GUIAnimationMain",
+            "request": "launch",
+            "mainClass": "guichat.GUIAnimationMain",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "SwingAnimationFaceObj",
+            "request": "launch",
+            "mainClass": "SwingAnimationFaceObj",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MovingBallFacesAWT",
+            "request": "launch",
+            "mainClass": "MovingBallFacesAWT",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "MovingBallAWT",
+            "request": "launch",
+            "mainClass": "MovingBallAWT",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Level5",
+            "request": "launch",
+            "mainClass": "Level5",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "Level1",
+            "request": "launch",
+            "mainClass": "Level1",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
+            "name": "FacesAWT",
+            "request": "launch",
+            "mainClass": "FacesAWT",
+            "projectName": "netpro2024_fa8f1410"
+        },
+        {
+            "type": "java",
             "name": "ExThreadsMain",
             "request": "launch",
             "mainClass": "kadai.ExThreadsMain",
